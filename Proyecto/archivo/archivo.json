@@ -1,0 +1,668 @@
+{
+  "countryTitle": "Colombia",
+  "teamName": "My Team Name",
+  "transportForm":
+  [
+    {
+      "id":1,
+      "name": "By plane",
+      "valueByKm": 8,
+      "timeByKm": 1
+    },
+    {
+      "id":2,
+      "name": "By car",
+      "valueByKm": 5,
+      "timeByKm": 3
+    },
+    {
+      "id":3,
+      "name": "By donkey",
+      "valueByKm": 3,
+      "timeByKm": 5
+    }
+  ],
+  "places": 
+  [
+    {
+      "label":"A",
+      "name":"City A",
+      "minTimeHere": 240,
+      "jobs":
+      [
+        {
+          "name": "Sweep",
+          "gain": 25,
+          "time": 60
+        },
+        {
+          "name": "Collector",
+          "gain": 30,
+          "time": 40
+        }
+      ],
+      "things_to_do":
+      [
+        {
+          "name": "Sleep",
+          "cost": 70,
+          "time": 420,
+          "type": "mandatory" 
+        },
+        {
+          "name": "Eat",
+          "cost": 60,
+          "time": 30,
+          "type": "mandatory" 
+        },
+        {
+          "name": "Visit museum",
+          "cost": 40,
+          "time": 150,
+          "type": "optional"
+        },
+        {
+          "name": "Go to beach",
+          "cost": 20,
+          "time": 90,
+          "type": "optional"
+        }
+      ],
+      "goingTo":
+      [
+        {
+          "label":"C",
+          "travelDistance": 63,
+          "transportForms":[1, 2, 3]
+        },
+        {
+          "label":"E",
+          "travelDistance": 74,
+          "transportForms":[1, 2, 3]
+        },
+        {
+          "label":"F",
+          "travelDistance": 105,
+          "transportForms":[1, 2, 3]
+        }
+      ]
+    },
+    {
+      "label":"B",
+      "name":"City B",
+      "minTimeHere": 240,
+      "jobs":
+      [
+        {
+          "name": "Plant",
+          "gain": 50,
+          "time": 120
+        },
+        {
+          "name": "Collector",
+          "gain": 30,
+          "time": 40
+        }
+      ],
+      "things_to_do":
+      [
+        {
+          "name": "Sleep",
+          "cost": 95,
+          "time": 420,
+          "type": "mandatory" 
+        },
+        {
+          "name": "Eat",
+          "cost": 65,
+          "time": 30,
+          "type": "mandatory" 
+        },
+        {
+          "name": "Visit park",
+          "cost": 0,
+          "time": 150,
+          "type": "optional"
+        },
+        {
+          "name": "Take a tour",
+          "cost": 50,
+          "time": 60,
+          "type": "optional"
+        }
+      ],
+      "goingTo":
+      [
+        {
+          "label":"C",
+          "travelDistance": 22,
+          "transportForms":[2, 3]
+        },
+        {
+          "label":"D",
+          "travelDistance": 45,
+          "transportForms":[2, 3]
+        }
+      ]
+    },
+    {
+      "label":"C",
+      "name":"City C",
+      "minTimeHere": 300,
+      "jobs":
+      [
+        {
+          "name": "Waiter",
+          "gain": 35,
+          "time": 60
+        },
+        {
+          "name": "Barman",
+          "gain": 30,
+          "time": 90
+        }
+      ],
+      "things_to_do":
+      [
+        {
+          "name": "Sleep",
+          "cost": 130,
+          "time": 420,
+          "type": "mandatory" 
+        },
+        {
+          "name": "Eat",
+          "cost": 50,
+          "time": 40,
+          "type": "mandatory"
+        },
+        {
+          "name": "Tour around the place",
+          "cost": 55,
+          "time": 120,
+          "type": "optional"
+        },
+        {
+          "name": "Play soccer",
+          "cost": 40,
+          "time": 120,
+          "type": "optional"
+        }
+      ],
+      "goingTo":
+      [
+        {
+          "label":"A",
+          "travelDistance": 63,
+          "transportForms":[1, 2, 3]
+        },
+        {
+          "label":"E",
+          "travelDistance": 28,
+          "transportForms":[1, 3]
+        },
+        {
+          "label":"B",
+          "travelDistance": 22,
+          "transportForms":[2, 3]
+        },
+        {
+          "label":"D",
+          "travelDistance": 30,
+          "transportForms":[2, 3]
+        },
+        {
+          "label":"H",
+          "travelDistance": 125,
+          "transportForms":[2, 3]
+        }
+      ]
+    },
+    {
+      "label":"D",
+      "name":"City D",
+      "minTimeHere": 600,
+      "jobs":
+      [
+        {
+          "name": "Maintenance",
+          "gain": 40,
+          "time": 60
+        },
+        {
+          "name": "Waiter",
+          "gain": 50,
+          "time": 120
+        }
+      ],
+      "things_to_do":
+      [
+        {
+          "name": "Sleep",
+          "cost": 90,
+          "time": 360,
+          "type": "mandatory" 
+        },
+        {
+          "name": "Eat",
+          "cost": 45,
+          "time": 20,
+          "type": "mandatory"
+        },
+        {
+          "name": "Tour around the place",
+          "cost": 20,
+          "time": 120,
+          "type": "optional"
+        },
+        {
+          "name": "Visit Church",
+          "cost": 10,
+          "time": 120,
+          "type": "optional"
+        }
+      ],
+      "goingTo":
+      [
+        {
+          "label":"B",
+          "travelDistance": 45,
+          "transportForms":[2, 3]
+        },
+        {
+          "label":"C",
+          "travelDistance": 30,
+          "transportForms":[2, 3]
+        },
+        {
+          "label":"H",
+          "travelDistance": 113,
+          "transportForms":[2, 3]
+        }
+      ]
+    },
+    {
+      "label":"E",
+      "name":"City E",
+      "minTimeHere": 540,
+      "jobs":
+      [
+        {
+          "name": "Clean men",
+          "gain": 40,
+          "time": 60
+        },
+        {
+          "name": "Waiter",
+          "gain": 50,
+          "time": 120
+        }
+      ],
+      "things_to_do":
+      [
+        {
+          "name": "Sleep",
+          "cost": 120,
+          "time": 390,
+          "type": "mandatory" 
+        },
+        {
+          "name": "Eat",
+          "cost": 35,
+          "time": 30,
+          "type": "mandatory"
+        },
+        {
+          "name": "Visit to monuments",
+          "cost": 20,
+          "time": 240,
+          "type": "optional"
+        },
+        {
+          "name": "Go to a special restaurant",
+          "cost": 110,
+          "time": 60,
+          "type": "optional"
+        }
+      ],
+      "goingTo":
+      [
+        {
+          "label":"A",
+          "travelDistance": 74,
+          "transportForms":[1, 2, 3]
+        },
+        {
+          "label":"C",
+          "travelDistance": 28,
+          "transportForms":[1, 3]
+        },
+        {
+          "label":"F",
+          "travelDistance": 96,
+          "transportForms":[1, 3]
+        },
+        {
+          "label":"G",
+          "travelDistance": 53,
+          "transportForms":[2, 3]
+        }
+      ]
+    },
+    {
+      "label":"F",
+      "name":"City F",
+      "minTimeHere": 420,
+      "jobs":
+      [
+        {
+          "name": "Farm men",
+          "gain": 50,
+          "time": 120
+        },
+        {
+          "name": "Waiter",
+          "gain": 30,
+          "time": 90
+        }
+      ],
+      "things_to_do":
+      [
+        {
+          "name": "Sleep",
+          "cost": 130,
+          "time": 420,
+          "type": "mandatory" 
+        },
+        {
+          "name": "Eat",
+          "cost": 70,
+          "time": 40,
+          "type": "mandatory"
+        },
+        {
+          "name": "Visit to parks",
+          "cost": 15,
+          "time": 120,
+          "type": "optional"
+        },
+        {
+          "name": "Go to Movies",
+          "cost": 45,
+          "time": 120,
+          "type": "optional"
+        }
+      ],
+      "goingTo":
+      [
+        {
+          "label":"A",
+          "travelDistance": 105,
+          "transportForms":[1, 2, 3]
+        },
+        {
+          "label":"E",
+          "travelDistance": 96,
+          "transportForms":[1, 3]
+        }
+      ]
+    },
+    {
+      "label":"G",
+      "name":"City G",
+      "minTimeHere": 480,
+      "jobs":
+      [
+        {
+          "name": "Voluntary Firemen",
+          "gain": 10,
+          "time": 30
+        },
+        {
+          "name": "Rescue men",
+          "gain": 0.5,
+          "time": 30
+        }
+      ],
+      "things_to_do":
+      [
+        {
+          "name": "Sleep",
+          "cost": 100,
+          "time": 420,
+          "type": "mandatory" 
+        },
+        {
+          "name": "Eat",
+          "cost": 65,
+          "time": 20,
+          "type": "mandatory"
+        },
+        {
+          "name": "Visit to attractions",
+          "cost": 55,
+          "time": 150,
+          "type": "optional"
+        },
+        {
+          "name": "Go to xtrem sports",
+          "cost": 130,
+          "time": 300,
+          "type": "optional"
+        }
+      ],
+      "goingTo":
+      [
+        {
+          "label":"E",
+          "travelDistance": 53,
+          "transportForms":[2, 3]
+        },
+        {
+          "label":"J",
+          "travelDistance": 150,
+          "transportForms":[2, 3]
+        },
+        {
+          "label":"I",
+          "travelDistance": 236,
+          "transportForms":[3]
+        },
+        {
+          "label":"H",
+          "travelDistance": 47,
+          "transportForms":[2, 3]
+        }
+      ]
+    },
+    {
+      "label":"H",
+      "name":"City H",
+      "minTimeHere": 540,
+      "jobs":
+      [
+        {
+          "name": "Chef",
+          "gain": 50,
+          "time": 120
+        },
+        {
+          "name": "Waiter",
+          "gain": 35,
+          "time": 90
+        }
+      ],
+      "things_to_do":
+      [
+        {
+          "name": "Sleep",
+          "cost": 120,
+          "time": 420,
+          "type": "mandatory" 
+        },
+        {
+          "name": "Eat",
+          "cost": 80,
+          "time": 20,
+          "type": "mandatory"
+        },
+        {
+          "name": "Go to park",
+          "cost": 50,
+          "time": 150,
+          "type": "optional"
+        },
+        {
+          "name": "Go to Church",
+          "cost": 100,
+          "time": 120,
+          "type": "optional"
+        }
+      ],
+      "goingTo":
+      [
+        {
+          "label":"C",
+          "travelDistance": 125,
+          "transportForms":[2, 3]
+        },
+        {
+          "label":"D",
+          "travelDistance": 113,
+          "transportForms":[2, 3]
+        },
+        {
+          "label":"I",
+          "travelDistance": 210,
+          "transportForms":[2, 3]
+        },
+        {
+          "label":"G",
+          "travelDistance": 47,
+          "transportForms":[2, 3]
+        }
+      ]
+    },
+    {
+      "label":"I",
+      "name":"City I",
+      "minTimeHere": 660,
+      "jobs":
+      [
+        {
+          "name": "Garbage collector",
+          "gain": 70,
+          "time": 120
+        },
+        {
+          "name": "Waiter",
+          "gain": 50,
+          "time": 90
+        }
+      ],
+      "things_to_do":
+      [
+        {
+          "name": "Sleep",
+          "cost": 150,
+          "time": 450,
+          "type": "mandatory" 
+        },
+        {
+          "name": "Eat",
+          "cost": 100,
+          "time": 30,
+          "type": "mandatory"
+        },
+        {
+          "name": "Learn to dance",
+          "cost": 80,
+          "time": 240,
+          "type": "optional"
+        },
+        {
+          "name": "Drink a beer",
+          "cost": 10,
+          "time": 20,
+          "type": "optional"
+        }
+      ],
+      "goingTo":
+      [
+        {
+          "label":"J",
+          "travelDistance": 82,
+          "transportForms":[1]
+        },
+        {
+          "label":"G",
+          "travelDistance": 236,
+          "transportForms":[3]
+        },
+        {
+          "label":"H",
+          "travelDistance": 210,
+          "transportForms":[2, 3]
+        }
+      ]
+    },
+    {
+      "label":"J",
+      "name":"City J",
+      "minTimeHere": 600,
+      "jobs":
+      [
+        {
+          "name": "Coffee tester",
+          "gain": 60,
+          "time": 60
+        },
+        {
+          "name": "Waiter",
+          "gain": 40,
+          "time": 60
+        }
+      ],
+      "things_to_do":
+      [
+        {
+          "name": "Sleep",
+          "cost": 130,
+          "time": 480,
+          "type": "mandatory" 
+        },
+        {
+          "name": "Eat",
+          "cost": 105,
+          "time": 40,
+          "type": "mandatory"
+        },
+        {
+          "name": "Chef",
+          "cost": 90,
+          "time": 180,
+          "type": "optional"
+        },
+        {
+          "name": "Visit museum",
+          "cost": 100,
+          "time": 120,
+          "type": "optional"
+        }
+      ],
+      "goingTo":
+      [
+        {
+          "label":"I",
+          "travelDistance": 82,
+          "transportForms":[1]
+        },
+        {
+          "label":"G",
+          "travelDistance": 150,
+          "transportForms":[2, 3]
+        }
+      ]
+    }
+  ]
+}

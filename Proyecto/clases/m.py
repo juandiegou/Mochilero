@@ -1,0 +1,1 @@
+viaje={'origen':2,'destino':2,'costo':1,'tiempo':3}
